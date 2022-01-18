@@ -1,7 +1,7 @@
 const http = require('http');
 const scrapper = require('./scrapper');
-const fetchAllInOne = require('./fetchAllInOne')
-// const fetchPage = require ('./fetchPage')
+// const fetchAllInOne = require('./fetchAllInOne')
+const fetchPage = require ('./fetchPage')
 // const savePage = require('./savePage')
 
 const normalizePort = val => {
